@@ -7,8 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E50DC5C2806201D00C26595 /* Museo700-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E50DC5B2806201D00C26595 /* Museo700-Regular.ttf */; };
+		1E50DC5E280620E700C26595 /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E50DC5D280620E700C26595 /* ButtonStyles.swift */; };
+		1E50DC62280627E900C26595 /* TypeOfButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E50DC61280627E900C26595 /* TypeOfButtons.swift */; };
+		1EE9FDBA2805F4C3000DAE39 /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE9FDB92805F4C3000DAE39 /* CalculatorView.swift */; };
+		1EE9FDBC2805F555000DAE39 /* DisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE9FDBB2805F555000DAE39 /* DisplayView.swift */; };
+		1EE9FDBE2805F576000DAE39 /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE9FDBD2805F576000DAE39 /* ButtonsView.swift */; };
+		1EE9FDCC2805FEAA000DAE39 /* AppFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE9FDCB2805FEAA000DAE39 /* AppFonts.swift */; };
+		1EE9FDCE2805FF05000DAE39 /* DigitalNumbers-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1EE9FDCD2805FF05000DAE39 /* DigitalNumbers-Regular.ttf */; };
+		1EE9FDD02805FF74000DAE39 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1EE9FDCF2805FF74000DAE39 /* Montserrat-Bold.ttf */; };
+		1EE9FDD52806036E000DAE39 /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE9FDD42806036E000DAE39 /* AppColor.swift */; };
 		1EEE9D1A2805E4C1007CDF16 /* CalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE9D192805E4C1007CDF16 /* CalculatorApp.swift */; };
-		1EEE9D1C2805E4C1007CDF16 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE9D1B2805E4C1007CDF16 /* ContentView.swift */; };
 		1EEE9D1E2805E4C4007CDF16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EEE9D1D2805E4C4007CDF16 /* Assets.xcassets */; };
 		1EEE9D212805E4C4007CDF16 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EEE9D202805E4C4007CDF16 /* Preview Assets.xcassets */; };
 		1EEE9D2B2805E4C4007CDF16 /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE9D2A2805E4C4007CDF16 /* CalculatorTests.swift */; };
@@ -34,9 +43,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E50DC5B2806201D00C26595 /* Museo700-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Museo700-Regular.ttf"; sourceTree = "<group>"; };
+		1E50DC5D280620E700C26595 /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
+		1E50DC61280627E900C26595 /* TypeOfButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeOfButtons.swift; sourceTree = "<group>"; };
+		1EE9FDB92805F4C3000DAE39 /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
+		1EE9FDBB2805F555000DAE39 /* DisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayView.swift; sourceTree = "<group>"; };
+		1EE9FDBD2805F576000DAE39 /* ButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
+		1EE9FDC92805FB9E000DAE39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1EE9FDCB2805FEAA000DAE39 /* AppFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFonts.swift; sourceTree = "<group>"; };
+		1EE9FDCD2805FF05000DAE39 /* DigitalNumbers-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DigitalNumbers-Regular.ttf"; sourceTree = "<group>"; };
+		1EE9FDCF2805FF74000DAE39 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		1EE9FDD42806036E000DAE39 /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
 		1EEE9D162805E4C1007CDF16 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EEE9D192805E4C1007CDF16 /* CalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorApp.swift; sourceTree = "<group>"; };
-		1EEE9D1B2805E4C1007CDF16 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1EEE9D1D2805E4C4007CDF16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EEE9D202805E4C4007CDF16 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1EEE9D262805E4C4007CDF16 /* CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +90,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1EE9FDBF2805F57D000DAE39 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1EE9FDB92805F4C3000DAE39 /* CalculatorView.swift */,
+				1EE9FDBB2805F555000DAE39 /* DisplayView.swift */,
+				1EE9FDBD2805F576000DAE39 /* ButtonsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1EE9FDC02805F593000DAE39 /* ViewModal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModal;
+			sourceTree = "<group>";
+		};
+		1EE9FDC12805F59E000DAE39 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				1E50DC61280627E900C26595 /* TypeOfButtons.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		1EE9FDC62805FB4B000DAE39 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1E50DC5B2806201D00C26595 /* Museo700-Regular.ttf */,
+				1EE9FDCF2805FF74000DAE39 /* Montserrat-Bold.ttf */,
+				1EE9FDCD2805FF05000DAE39 /* DigitalNumbers-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		1EE9FDD32806035A000DAE39 /* Resourse */ = {
+			isa = PBXGroup;
+			children = (
+				1EE9FDCB2805FEAA000DAE39 /* AppFonts.swift */,
+				1EE9FDD42806036E000DAE39 /* AppColor.swift */,
+				1E50DC5D280620E700C26595 /* ButtonStyles.swift */,
+			);
+			path = Resourse;
+			sourceTree = "<group>";
+		};
 		1EEE9D0D2805E4C1007CDF16 = {
 			isa = PBXGroup;
 			children = (
@@ -95,7 +159,12 @@
 			isa = PBXGroup;
 			children = (
 				1EEE9D192805E4C1007CDF16 /* CalculatorApp.swift */,
-				1EEE9D1B2805E4C1007CDF16 /* ContentView.swift */,
+				1EE9FDBF2805F57D000DAE39 /* View */,
+				1EE9FDC02805F593000DAE39 /* ViewModal */,
+				1EE9FDC12805F59E000DAE39 /* Modal */,
+				1EE9FDC62805FB4B000DAE39 /* Fonts */,
+				1EE9FDD32806035A000DAE39 /* Resourse */,
+				1EE9FDC92805FB9E000DAE39 /* Info.plist */,
 				1EEE9D1D2805E4C4007CDF16 /* Assets.xcassets */,
 				1EEE9D1F2805E4C4007CDF16 /* Preview Content */,
 			);
@@ -231,7 +300,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EE9FDD02805FF74000DAE39 /* Montserrat-Bold.ttf in Resources */,
 				1EEE9D212805E4C4007CDF16 /* Preview Assets.xcassets in Resources */,
+				1E50DC5C2806201D00C26595 /* Museo700-Regular.ttf in Resources */,
+				1EE9FDCE2805FF05000DAE39 /* DigitalNumbers-Regular.ttf in Resources */,
 				1EEE9D1E2805E4C4007CDF16 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +329,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EEE9D1C2805E4C1007CDF16 /* ContentView.swift in Sources */,
+				1EE9FDBC2805F555000DAE39 /* DisplayView.swift in Sources */,
+				1EE9FDCC2805FEAA000DAE39 /* AppFonts.swift in Sources */,
+				1E50DC5E280620E700C26595 /* ButtonStyles.swift in Sources */,
 				1EEE9D1A2805E4C1007CDF16 /* CalculatorApp.swift in Sources */,
+				1E50DC62280627E900C26595 /* TypeOfButtons.swift in Sources */,
+				1EE9FDBE2805F576000DAE39 /* ButtonsView.swift in Sources */,
+				1EE9FDBA2805F4C3000DAE39 /* CalculatorView.swift in Sources */,
+				1EE9FDD52806036E000DAE39 /* AppColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +498,7 @@
 				DEVELOPMENT_TEAM = 2DK6UP5TR4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Calculator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +528,7 @@
 				DEVELOPMENT_TEAM = 2DK6UP5TR4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Calculator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
