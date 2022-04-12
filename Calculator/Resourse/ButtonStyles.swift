@@ -15,17 +15,19 @@ struct MainButton: ButtonStyle{
     private let tapBackgroundColor: Color
     private let tapFontColor: Color
     
+    
     init(type: TypeOfButton){
         
         backgroundColor = type == TypeOfButton.main ? Color.buttons.mainBackground : Color.buttons.secondaryBackground
         fontColor = type == TypeOfButton.main ? Color.buttons.mainFont : Color.buttons.secondaryFont
         tapBackgroundColor = type == TypeOfButton.main ? Color.buttons.secondaryBackground : Color.buttons.mainBackground
         tapFontColor = type == TypeOfButton.main ? Color.buttons.secondaryFont : Color.buttons.mainFont
+        
     }
     
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
-            .frame(maxWidth: 80, maxHeight: 80)
+            .frame(maxWidth: .infinity, maxHeight: 80)
             .background(configuration.isPressed ? tapBackgroundColor : backgroundColor)
             .foregroundColor(configuration.isPressed ? tapFontColor : tapBackgroundColor)
             .font(.ButtonFont())

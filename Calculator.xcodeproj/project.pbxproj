@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1E50DC5C2806201D00C26595 /* Museo700-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E50DC5B2806201D00C26595 /* Museo700-Regular.ttf */; };
 		1E50DC5E280620E700C26595 /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E50DC5D280620E700C26595 /* ButtonStyles.swift */; };
 		1E50DC62280627E900C26595 /* TypeOfButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E50DC61280627E900C26595 /* TypeOfButtons.swift */; };
+		1E67879728063BE1003BECD6 /* Museo700-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E50DC5B2806201D00C26595 /* Museo700-Regular.ttf */; };
 		1EE9FDBA2805F4C3000DAE39 /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE9FDB92805F4C3000DAE39 /* CalculatorView.swift */; };
 		1EE9FDBC2805F555000DAE39 /* DisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE9FDBB2805F555000DAE39 /* DisplayView.swift */; };
 		1EE9FDBE2805F576000DAE39 /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE9FDBD2805F576000DAE39 /* ButtonsView.swift */; };
@@ -301,9 +301,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EE9FDD02805FF74000DAE39 /* Montserrat-Bold.ttf in Resources */,
-				1EEE9D212805E4C4007CDF16 /* Preview Assets.xcassets in Resources */,
-				1E50DC5C2806201D00C26595 /* Museo700-Regular.ttf in Resources */,
+				1E67879728063BE1003BECD6 /* Museo700-Regular.ttf in Resources */,
 				1EE9FDCE2805FF05000DAE39 /* DigitalNumbers-Regular.ttf in Resources */,
+				1EEE9D212805E4C4007CDF16 /* Preview Assets.xcassets in Resources */,
 				1EEE9D1E2805E4C4007CDF16 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

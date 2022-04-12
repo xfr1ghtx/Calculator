@@ -12,10 +12,30 @@ struct ButtonsView: View {
         VStack{
             HStack{
                 Button("1"){}
+                    .buttonStyle(MainButton(type: .main))
+                    .frame(width: 80)
                 Button("2"){}
+                    .buttonStyle(MainButton(type: .main))
+                    .frame(width: 80)
                 Button("3"){}
+                    .buttonStyle(MainButton(type: .main))
+                    .frame(width: 80)
+                Button("+"){}
+                    .buttonStyle(MainButton(type: .secondary))
+                    .frame(width: 80)
             }
-            .buttonStyle(MainButton(type: .main))
+            HStack{
+                Button("0"){}
+                    .buttonStyle(MainButton(type: .main))
+                    .frame(width: 176)
+                Button(","){}
+                    .buttonStyle(MainButton(type: .main))
+                    .frame(width: 80)
+                Button("="){}
+                    .buttonStyle(MainButton(type: .secondary))
+                    .frame(width: 80)
+            }
+            
         }
     }
 }

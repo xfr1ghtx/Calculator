@@ -5,8 +5,8 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>DigitalNumbers-Regular.ttf</string>
-		<string>Museo700-Regular.ttf</string>
 		<string>Montserrat-Bold.ttf</string>
+		<string>Museo700-Regular.ttf</string>
 	</array>
 </dict>
 </plist>
